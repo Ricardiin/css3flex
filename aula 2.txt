@@ -1,0 +1,104 @@
+Aula: 2
+
+Material de apoio: Slides
+https://github.com/professorjosedeassis/html5css3
+
+CSS Cascading Style Sheets (Folha de estilo em cascata)
+CSS é usado para formatar o documento html5css3
+
+CSS inline (dentro da tag html)
+CSS vinculado ao próprio documento html <style></style>
+CSS separado em uma folha de estilo (recomendado)
+
+Para criar a folha de estilo automaticamente no VSCODE, digitar: link:css e depois <ctrl><click> no link de nome style.css
+
+index.html ---stryle.css
+
+CSSS Flexbox É uma tecnica moderna usando em layout responsivos para adaptar os conteúdos aos diversos tamanhos de tela.
+
+Passo 1 :Criar uma div atribuindo uma classe de nome container
+
+Obs: Uma classe é um identificar usado nos elementos html podendo ser reutilizada (.)
+
+atalho VSCode: div.container
+
+_______________________________________________________
+css
+
+/* Comentários */
+
+Para criar um estilo no CSS, usamos o nome:
+<tag>
+. (classe)
+# id
+
+O CSS trabalha com o conceito de caixa (box-model)
+width
+-----------------------------------------
+margin
+    border
+        padding
+            <tag>       heigth
+        padding
+    border
+margin
+------------------------------------------------------
+
+
+width:      largura
+heigth:     altura
+
+Cores: Usar codigo hexadecimal
+
+_______________________________________________________
+tag <img> (nao fecha)
+propriedade src (caminho até a imagem)
+propriedade alt (descrição da imagem) *** Importante !
+
+tag <a href=""></a>
+Usada para:
+- link para outras urls
+- link interno
+- download de documentos ou arquivos (ex:PDF)
+
+Observaçoes:(propriedades)
+target="_blank" (abre o link em uma nova aba do navegador)
+<a href=""></a><img src="" alt""</a> (imagem clicavel)
+
+Dica VSCode:
+a (criar a tag <a href>)
+a*4 (criar 4 tags <a href>)
+a>img (Criar uma imagem clicavel)
+a>img*5 (Criar 5 imagens clicaveis)
+
+_______________________________________________________Tipos de fontes (para Textos) - Recomendado usar um CDN (content delivery network "Repositorio de fonts")
+Recomendado: Google fonts
+
+CSS RESET (Padronizar o estilo nos diferentes navegadores)
+box-sizing: border-box; (definir o tamanho absoluto do elemento sem levar em conta bordas e espaçamentos)
+
+Definição de variáveis para Cores para facilitar o desenvolvimento e manutenção do site
+
+_______________________________________________________
+Tamanho de fonts 
+Tamanho padrão:16px = 1 rem
+
+rem (Relativo / Porcentagem)
+relativo: Site responsivo (adapta o tamanho da fonte a tela)
+1rem= 100 (tamanho padrão da fonte = 16px )
+1.25rem = 125% (ou seja aumento de 25%)
+2rem = dobrar o tamanho
+
+_______________________________________________________
+box model:
+margin e padding: (mesmo raciocinio )
+
+margin: superior direita inferior esquerda
+margin-top: superior
+nargin-rigth: direita
+margin-bottom: inferior
+margin-left: esquerda
+margin: superior/inferior direita/esquerda
+
+_______________________________________________________
+text decoration: none; (remover o sublinhado )
